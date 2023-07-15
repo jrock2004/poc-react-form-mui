@@ -28,9 +28,6 @@ devDependencies:
   '@mui/material':
     specifier: ^5.14.0
     version: 5.14.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
-  '@mui/x-date-pickers':
-    specifier: ^6.10.0
-    version: 6.10.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/base@5.0.0-beta.7)(@mui/material@5.14.0)(@mui/system@5.14.0)(react-dom@18.2.0)(react@18.2.0)
   '@types/react':
     specifier: ^18.2.14
     version: 18.2.14
@@ -58,9 +55,6 @@ devDependencies:
   react-hook-form:
     specifier: ^7.45.1
     version: 7.45.1(react@18.2.0)
-  react-hook-form-mui:
-    specifier: ^6.4.0
-    version: 6.4.0(@mui/icons-material@5.14.0)(@mui/material@5.14.0)(@mui/x-date-pickers@6.10.0)(react-hook-form@7.45.1)(react@18.2.0)
   typescript:
     specifier: ^5.0.2
     version: 5.0.2
@@ -890,59 +884,6 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-is: 18.2.0
-    dev: true
-
-  /@mui/x-date-pickers@6.10.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/base@5.0.0-beta.7)(@mui/material@5.14.0)(@mui/system@5.14.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-tp0i65JqZarIRyyTyQy5OjOPgjJv5cO7oQAbOrAePIHn7UEYPXe3k4ISiUzEAjBBXy1HhwQxGRJslVp4BXe3MA==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      '@emotion/react': ^11.9.0
-      '@emotion/styled': ^11.8.1
-      '@mui/base': ^5.0.0-alpha.87
-      '@mui/material': ^5.8.6
-      '@mui/system': ^5.8.0
-      date-fns: ^2.25.0
-      date-fns-jalali: ^2.13.0-0
-      dayjs: ^1.10.7
-      luxon: ^3.0.2
-      moment: ^2.29.4
-      moment-hijri: ^2.1.2
-      moment-jalaali: ^0.7.4 || ^0.8.0 || ^0.9.0 || ^0.10.0
-      react: ^17.0.0 || ^18.0.0
-      react-dom: ^17.0.0 || ^18.0.0
-    peerDependenciesMeta:
-      '@emotion/react':
-        optional: true
-      '@emotion/styled':
-        optional: true
-      date-fns:
-        optional: true
-      date-fns-jalali:
-        optional: true
-      dayjs:
-        optional: true
-      luxon:
-        optional: true
-      moment:
-        optional: true
-      moment-hijri:
-        optional: true
-      moment-jalaali:
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.22.6
-      '@emotion/react': 11.11.1(@types/react@18.2.14)(react@18.2.0)
-      '@emotion/styled': 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.14)(react@18.2.0)
-      '@mui/base': 5.0.0-beta.7(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/material': 5.14.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/system': 5.14.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.14)(react@18.2.0)
-      '@mui/utils': 5.13.7(react@18.2.0)
-      '@types/react-transition-group': 4.4.6
-      clsx: 1.2.1
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -2022,28 +1963,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
-
-  /react-hook-form-mui@6.4.0(@mui/icons-material@5.14.0)(@mui/material@5.14.0)(@mui/x-date-pickers@6.10.0)(react-hook-form@7.45.1)(react@18.2.0):
-    resolution: {integrity: sha512-4RX7rL0nqUhEBm5KXKwFBR5FxqGP9pM88XD6/k6Xh5teV0+TPjMxjqsCx313YJrr7CH9jOd/mxRekgu+EqeAyA==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@mui/icons-material': '>= 5.x <6'
-      '@mui/material': '>= 5.x <6'
-      '@mui/x-date-pickers': '>=6.1.0 <7'
-      react: '>=17 <19'
-      react-hook-form: '>=7.33.1'
-    peerDependenciesMeta:
-      '@mui/icons-material':
-        optional: true
-      '@mui/x-date-pickers':
-        optional: true
-    dependencies:
-      '@mui/icons-material': 5.14.0(@mui/material@5.14.0)(@types/react@18.2.14)(react@18.2.0)
-      '@mui/material': 5.14.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.14)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/x-date-pickers': 6.10.0(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/base@5.0.0-beta.7)(@mui/material@5.14.0)(@mui/system@5.14.0)(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-hook-form: 7.45.1(react@18.2.0)
-    dev: true
 
   /react-hook-form@7.45.1(react@18.2.0):
     resolution: {integrity: sha512-6dWoFJwycbuFfw/iKMcl+RdAOAOHDiF11KWYhNDRN/OkUt+Di5qsZHwA0OwsVnu9y135gkHpTw9DJA+WzCeR9w==}
